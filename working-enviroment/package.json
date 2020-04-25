@@ -1,0 +1,37 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "\"Browser based game\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denis-shubochkin/hw1.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Denis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denis-shubochkin/hw1/issues"
+  },
+  "homepage": "https://github.com/denis-shubochkin/hw1#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@typescript-eslint/eslint-plugin": "^2.29.0",
+    "@typescript-eslint/parser": "^2.29.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5"
+  }
+}
